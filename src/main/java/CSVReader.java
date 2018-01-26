@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  * @author Yevhen Danchenko
  */
 public class CSVReader {
-    private final static String DELIMITER_COLON = ",";
+    private final static String DELIMITER_COLON = "\\s*,\\s*";
     private String fileName;
     private String delimiter;
     private List<String> csvHeaders;
